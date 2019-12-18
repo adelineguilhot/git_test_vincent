@@ -1,7 +1,7 @@
 import random
 
 class Wizard:
-    magic_dice = 12
+    des_magique = 12
     sword_dice = 8
     bow_dice = 10
     max_life_points = 12
@@ -12,7 +12,7 @@ class Wizard:
 
     def attack(self):
         sword = random.randint(1, self.sword_dice)
-        magic = random.randint(1, self.magic_dice)
+        magic = random.randint(1, self.des_magique)
         bow = random.randint(1, self.bow_dice)
         print(sword)
         print(bow)
@@ -43,7 +43,7 @@ class Wizard:
                 self.current_life_points -= attack_points
             print("defense par l'arme: %s; il vous reste %s de vie !" % (weapon, self.current_life_points))
         if weapon == "magic":
-            magic = random.randint(1, self.magic_dice)
+            magic = random.randint(1, self.des_magique)
             if magic < attack_points:
                 self.current_life_points -= attack_points
             print("defense par l'arme: %s; il vous reste %s de vie !" % (weapon, self.current_life_points))
