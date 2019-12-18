@@ -3,7 +3,7 @@ import random
 class Wizard:
     des_magique = 12
     sword_dice = 8
-    bow_dice = 10
+    bow_dice = 15
     max_life_points = 12
 
     def __init__(self, name):
