@@ -1,5 +1,6 @@
 import random
 
+<<<<<<< HEAD
 class Wizard:
     des_magique = 12
     sword_dice = 14
@@ -13,6 +14,22 @@ class Wizard:
     def attack(self):
         sword = random.randint(1, self.sword_dice)
         magic = random.randint(1, self.des_magique)
+=======
+
+class Wizard:
+    magic_dice = 12
+    sword_dice = 8
+    bow_dice = 10
+    maximum_points_vie = 12
+
+    def __init__(self, name):
+        self.name = name
+        self.current_life_points = self.maximum_points_vie
+
+    def attack(self):
+        sword = random.randint(1, self.sword_dice)
+        magic = random.randint(1, self.magic_dice)
+>>>>>>> dev
         bow = random.randint(1, self.bow_dice)
         print(sword)
         print(bow)
@@ -43,7 +60,11 @@ class Wizard:
                 self.current_life_points -= attack_points
             print("defense par l'arme: %s; il vous reste %s de vie !" % (weapon, self.current_life_points))
         if weapon == "magic":
+<<<<<<< HEAD
             magic = random.randint(1, self.des_magique)
+=======
+            magic = random.randint(1, self.magic_dice)
+>>>>>>> dev
             if magic < attack_points:
                 self.current_life_points -= attack_points
             print("defense par l'arme: %s; il vous reste %s de vie !" % (weapon, self.current_life_points))
@@ -149,10 +170,19 @@ class Archer:
                 self.current_life_points -= attack_points
                 print("defense par l'arme: %s; il vous reste %s de vie !" % (weapon, self.current_life_points))
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 gandalf = Wizard("gandalf")
 gimli = Warrior("gimli")
 arthur = Archer("arthur")
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dev
 # dans le cas ou gandalf attaque arthur
 weapon, attack_points = gimli.attack()
 print(gimli, weapon, attack_points)
