@@ -80,13 +80,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1152" height="276" key="GridCell.Tab.0.bottom" timestamp="1576682947093">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1152" height="276" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1576682947093" />
+    <state width="1152" height="276" key="GridCell.Tab.0.center" timestamp="1576682947092">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1152" height="276" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1576682947092" />
+    <state width="1152" height="276" key="GridCell.Tab.0.left" timestamp="1576682947091">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1152" height="276" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1576682947091" />
+    <state width="1152" height="276" key="GridCell.Tab.0.right" timestamp="1576682947092">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1152" height="276" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1576682947092" />
     <state x="464" y="193" key="SettingsEditor" timestamp="1576665521486">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="464" y="193" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1576665521486" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576665171344">
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576742342200">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1576665171344" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1576742342200" />
   </component>
 </project>
